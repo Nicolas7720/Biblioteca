@@ -1,27 +1,25 @@
-# Sistema de Registro de Livros – Biblioteca
+# Sistema de Registro de Livros – Biblioteca 📚
 
-Este é um projeto em Python para registrar, consultar e remover livros em uma biblioteca. Ele permite organizar os dados de forma simples e prática, usando o terminal como interface.
+Projeto desenvolvido em Python para gerenciar o registro de livros em uma biblioteca. Permite adicionar, consultar e remover livros de forma simples e interativa pelo terminal.
 
-Funcionalidades
+⚙️ Funcionalidades
 
-Registro de livros com nome, autor e editora
+✅ Registrar livros com nome, autor e editora
 
-Consulta por título, ID ou autor
+🔍 Consultar livros por título, ID ou autor
 
-Remoção de livros por título, ID ou autor
+❌ Remover livros pelos mesmos critérios
 
-Armazenamento interno dos registros com IDs automáticos
-
-Interface interativa por linha de comando
+🆔 Geração automática de IDs únicos para cada livro
 
 
-Como usar
+▶️ Como usar
 
 1. Clone o repositório:
 
 
 
-git clone https://github.com/Nicolas7720/Biblioteca
+git clone https://github.com/Nicolas7720/Biblioteca.git
 
 2. Acesse a pasta e execute o script:
 
@@ -30,24 +28,13 @@ git clone https://github.com/Nicolas7720/Biblioteca
 cd Biblioteca
 python biblioteca.py
 
-Estrutura do sistema
-
-Cada livro é armazenado com um ID único
-
-Os dados ficam em memória durante a execução
-
-As opções são apresentadas em um menu simples no terminal
-
-
-Tecnologias
+🧠 Tecnologias
 
 Python 3
 
 
-Possíveis melhorias
+🔧 Melhorias futuras
 
-Adição de persistência com arquivos .json ou banco de dados
+💾 Salvamento dos dados em arquivo .json ou banco de dados
 
-Interface gráfica com Tkinter ou web com Flask
-
-Sistema de autenticação para administradores
+🖥️ Interface gráfica com Tkinter ou versão web com Flask
