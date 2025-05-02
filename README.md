@@ -21,13 +21,13 @@ Como usar
 
 
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Nicolas7720/Biblioteca
 
 2. Acesse a pasta e execute o script:
 
 
 
-cd nome-do-repositorio
+cd Biblioteca
 python biblioteca.py
 
 Estrutura do sistema
